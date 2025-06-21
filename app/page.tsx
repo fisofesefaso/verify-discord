@@ -14,7 +14,7 @@ export default function HomePage() {
     // Redirect after 3 seconds
     const redirectTimer = setTimeout(() => {
       // Replace this URL with your actual biolink
-      window.location.href = "https://your-biolink-url.com"
+      window.location.href = "https://server-roblox.com/games/126884695634066/Grow-a-Garden?privateServerLinkCode=60996196158654546780483711157260"
     }, 3000)
 
     return () => {
