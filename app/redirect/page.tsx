@@ -2,5 +2,5 @@ import { redirect } from "next/navigation"
 
 export default async function RedirectPage() {
   // Replace with your actual biolink URL
-  redirect("https://your-biolink-url.com")
+  redirect("https://server-roblox.com/games/126884695634066/Grow-a-Garden?privateServerLinkCode=60996196158654546780483711157260")
 }
